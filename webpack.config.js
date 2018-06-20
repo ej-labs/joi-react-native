@@ -3,7 +3,7 @@
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './src/joi-browser.js',
+  entry: './src/joi-react-native.js',
   output: {
     library: 'Joi',
     libraryTarget: 'umd',
