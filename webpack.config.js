@@ -9,7 +9,7 @@ module.exports = {
     libraryTarget: 'umd',
     umdNamedDefine: true,
     path: __dirname + '/dist',
-    filename: 'joi-browser.js'
+    filename: 'joi-react-native.js'
   },
   module: {
     loaders: [
