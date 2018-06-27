@@ -1,6 +1,6 @@
 {
   "name": "joi-react-native",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "joi object schema validation bundled for react-native",
   "main": "./dist/joi-react-native.js",
   "scripts": {
