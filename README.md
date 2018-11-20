@@ -19,17 +19,17 @@ https://github.com/hapijs/joi/blob/master/API.md
 What you need do use babel to transform all require/import from joi to joi-react-native. By doing this, you can use joi-react-native with type definitions from @types/joi.
 
 1. Install babel-plugin-rewrite-require
-```
-npm install --save-dev babel-plugin-rewrite-require
-```
+    ```
+    npm install --save-dev babel-plugin-rewrite-require
+    ```
 2. In .babelrc, add the following:
-```
-"plugins": [
-  ["rewrite-require", {
-    aliases: {
-      joi: 'joi-react-native',
-    }
-  }]
-]
-```
+    ```
+    "plugins": [
+      ["rewrite-require", {
+        aliases: {
+          joi: 'joi-react-native',
+        }
+      }]
+    ]
+    ```
 3. That's it. In any files that uses joi, you must require/import from joi (not joi-react-native). Babel will transform to joi-react-native for you
