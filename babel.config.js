@@ -12,8 +12,7 @@ module.exports = function (api) {
     ]
   ];
 
-  const plugins= [
-    //"@babel/transform-object-assign"
+  const plugins = [
   ];
 
   return { presets, plugins }
