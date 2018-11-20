@@ -2,7 +2,7 @@
 This project uses joi@14.1.0 internally.
 
 ### Note
-Starting form v2.0.0, joi-react-native works on both iOS and Android but v1 only works on iOS.
+Starting from v2.0.0, joi-react-native works on both iOS and Android (while v1 only works on iOS).
 
 ### Install
 ```
