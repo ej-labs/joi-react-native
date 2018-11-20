@@ -1,12 +1,11 @@
 {
   "name": "joi-react-native",
-  "version": "2.0.1",
+  "version": "2.0.1-rc1",
   "description": "joi object schema validation bundled for react-native",
   "main": "./dist/joi-react-native.js",
   "scripts": {
     "prepare": "npm run build-webpack",
-    "build-webpack": "webpack --mode=production",
-    "test": "karma start --single-run"
+    "build-webpack": "webpack --mode=production"
   },
   "author": "Jeff Barczewski",
   "contributors": [
@@ -26,16 +25,7 @@
     "@babel/plugin-transform-object-assign": "7.0.0-beta.47",
     "@babel/preset-env": "7.0.0-beta.47",
     "babel-loader": "^8.0.2",
-    "expect": "^1.20.2",
     "joi": "^14.1.0",
-    "json-loader": "^0.5.7",
-    "karma": "^2.0.2",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-mocha": "^1.1.1",
-    "karma-mocha-reporter": "^2.1.0",
-    "karma-webpack": "^3.0.0",
-    "mocha": "^5.2.0",
-    "puppeteer": "^1.5.0",
     "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2"
   },
