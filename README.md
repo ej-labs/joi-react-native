@@ -1,4 +1,6 @@
 # joi-react-native
+[![npm version](https://badge.fury.io/js/joi-react-native.svg)](https://badge.fury.io/js/joi-react-native)
+
 This project uses joi@14.1.0 internally.
 
 ### Note
