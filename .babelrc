@@ -1,17 +1,14 @@
 {
   "plugins": [
-    "transform-es2015-modules-commonjs",
-    "transform-object-assign",
-    "transform-proto-to-assign",
-    "transform-es2015-typeof-symbol",
-    [
-      "transform-es2015-classes",
-      {
-        "loose": true
-      }
-    ]
+    "@babel/transform-modules-commonjs",
+    "@babel/transform-object-assign"
   ],
   "presets": [
-    "es2015"
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry"
+      }
+    ]
   ]
 }

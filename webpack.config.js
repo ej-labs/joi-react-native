@@ -1,5 +1,6 @@
 'use strict';
 
+const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
@@ -12,20 +13,16 @@ module.exports = {
     filename: 'joi-react-native.js'
   },
   module: {
-    loaders: [
+    rules: [
       {
         // need to babelify joi, isemail, hoek, and topo's lib
         test: /[\\\/]node_modules[\\\/](joi[\\\/]lib[\\\/]|isemail[\\\/]lib[\\\/]|hoek[\\\/]lib[\\\/]|topo[\\\/]lib[\\\/])/,
         loader: 'babel-loader'
       },
       {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
+        test: /\.js$/,
+        include: path.resolve(__dirname, "src"),
         loader: 'babel-loader'
-      },
-      {
-        test: /\.json$/,
-        loader: 'json-loader'
       }
     ]
   },
