@@ -1,7 +1,5 @@
 'use strict';
 
-require("@babel/polyfill");
-
 // Polyfill for string.prototype.normalize
 require("unorm");
 

@@ -15,13 +15,8 @@ module.exports = {
   module: {
     rules: [
       {
-        // need to babelify joi, isemail, hoek, and topo's lib
-        test: /[\\\/]node_modules[\\\/](joi[\\\/]lib[\\\/]|isemail[\\\/]lib[\\\/]|hoek[\\\/]lib[\\\/]|topo[\\\/]lib[\\\/])/,
-        loader: 'babel-loader'
-      },
-      {
         test: /\.js$/,
-        include: path.resolve(__dirname, "src"),
+        exclude: /node_modules\/(?!(joi\/lib|isemail\/lib|hoek\/lib|topo\/lib))/,
         loader: 'babel-loader'
       }
     ]
