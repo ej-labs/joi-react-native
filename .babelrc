@@ -3,6 +3,7 @@
     "transform-es2015-modules-commonjs",
     "transform-object-assign",
     "transform-proto-to-assign",
+    "transform-es2015-typeof-symbol",
     [
       "transform-es2015-classes",
       {
