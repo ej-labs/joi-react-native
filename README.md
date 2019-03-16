@@ -17,7 +17,7 @@ npm i --save joi-react-native
 https://github.com/hapijs/joi/blob/master/API.md
 ```
 
-### Works on Typescript 
+### Works with TypeScript 
 Use babel plugin to transform all require/import from joi to joi-react-native. By doing this, you can use joi-react-native with type definitions from @types/joi.
 
 1. Install babel-plugin-rewrite-require
