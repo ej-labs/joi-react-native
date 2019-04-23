@@ -1,10 +1,13 @@
 # joi-react-native
 [![npm version](https://badge.fury.io/js/joi-react-native.svg)](https://badge.fury.io/js/joi-react-native)
 
-This project uses joi@14.1.0 internally.
-
 ### Note
-Starting from v2.0.0, joi-react-native works on both iOS and Android (while v1 only works on iOS).
+- joi-react-native v3 uses joi 14.3.1 internally and works on react-native >= 0.59.0.
+
+- joi-react-native v2 uses joi 14.1.0 internally and works on react-native < 0.58.0.
+
+### What is the difference between v3 and v2.
+- Because react-native 0.59.0 has new JS Core, we don't need to use polyfills in v3 anymore. For this reason, file size in v3 is significantly smaller (50% smaller) and more performant compared to v2. 
 
 ### Install
 ```
