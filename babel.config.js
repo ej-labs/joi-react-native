@@ -3,7 +3,7 @@ module.exports = function (api) {
 
   const presets = [
     [
-      '@babel/preset-env',
+      "module:metro-react-native-babel-preset",
       {
         useBuiltIns: 'usage',
         module: "commonjs",
